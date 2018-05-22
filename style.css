@@ -1,0 +1,71 @@
+body{
+    margin: 0;
+}
+.title{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-family: 'Slabo 27px', serif;
+    font-size: 50px;
+    color: red;
+}
+.name{
+    display: flex;
+    justify-content: center;
+    color: blue;
+}
+
+
+.box{
+    height: 0vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.box > div{
+    width: 25%;
+    height: 25vw;
+    box-sizing: border-box;
+}
+
+
+.offense{
+    font-size: 30px;
+}
+.container > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 50px;
+    
+    transition: all 1s;
+}
+.container > div:hover {
+    font-size: 100px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.box > div:nth-child(1){
+    background: url(http://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/5526.png&w=350&h=254);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    color: red;
+    font-size: 19px;
+}
+.box > div:nth-child(2){
+    background: url(https://bloximages.newyork1.vip.townnews.com/collegian.psu.edu/content/tncms/assets/v3/editorial/9/ae/9ae7f1d6-d244-11e7-b565-c32a1b6d7f68/5a1a112fa21ce.image.jpg?resize=1200%2C751);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    color: red;
+    font-size: 16px;
+}
+
